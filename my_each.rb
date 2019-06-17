@@ -1,3 +1,5 @@
+collection = [1, 2, 3, 4]
+
 def my_each(collection)
   i = 0
   while collection.length > i
@@ -7,7 +9,7 @@ def my_each(collection)
   collection
 end
 
-collection = [1, 2, 3, 4]
+
 my_each(collection) do|x|
   puts x
 end
