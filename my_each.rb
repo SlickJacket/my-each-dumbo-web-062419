@@ -11,5 +11,5 @@ end
 
 
 my_each(collection) do|x|
-  puts x
+  x
 end
